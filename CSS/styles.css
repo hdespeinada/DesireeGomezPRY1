@@ -1,0 +1,172 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+</style>
+
+div {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #000;
+    border-radius: 4px;
+    margin: 5px 0 10px 0; 
+}
+
+section {
+    min-height: 20vh;
+    font-family: 'poppins-ligera', sans-serif;
+    font-size: 20px;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{ 
+    margin: 40px
+}
+
+img{
+    width: 100px;
+    margin: 5px;
+}
+
+.imagen-presentacion{
+    width: 400px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color:#0f0f0f;
+}
+
+
+body{
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+h2 {
+    background-color: #dce8f3;
+    text-align: center;
+    font-size: 28px;
+}
+
+h3 {
+    background-color: rgba(175, 89, 158, 0.3);
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    color: #0f0f0f;
+    border-radius: 4px;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    color:#fbfbfb;
+ }
+
+.Boton-1{
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+    padding: 0px;
+    width: 180px;
+    height: 50px;
+    margin-bottom: 20px;
+    background: #af599e;
+    color: #fbfbfb;
+    font-size: 20px;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header{ 
+    color: black;
+    height: 90px;
+}
+
+footer{
+    display: flex;  
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+    height: 200px;
+    background: #af599e;
+}
+
+.Pie-de-pagina {
+    color:#fbfbfb;
+    font-size: 18px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+#menu-principal{
+    display: flex;
+    list-style: none;
+}
+
+#menu-principal > li > a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    text-size-adjust: 700px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#menu-principal li{
+    padding: 5px;
+    margin-right: 10px;
+    color: black;
+}
+
+nav ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.botones-contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 90px;
+    justify-content: space-between;
+}
+
